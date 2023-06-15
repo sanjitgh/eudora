@@ -1,0 +1,215 @@
+/* ******************1400 s**************** */
+@media (max-width:1400px) {
+    .hero_content p {
+        max-width: 50%;
+    }  
+}
+/* ******************1400 e**************** */
+
+
+/* ******************1399 s**************** */
+@media (max-width:1399px) {
+    .a_h h1:after {
+        left: 0;
+    }
+    .a_h h1::before {
+        right: 0;
+    }
+}
+/* ******************1399 e**************** */
+
+
+/* ******************1199 s**************** */
+@media (max-width:1199px) {
+    .a_h h1:after {
+        width: 15%;
+    }
+    .a_h h1::before {
+        width: 15%;
+    }
+}
+/* ******************1199 e**************** */
+
+/* ******************992 s**************** */
+@media (min-width:992px) {
+    .mobile{
+        display: none;
+    }
+}
+/* ******************992 e**************** */
+
+
+/* ******************991 s**************** */
+@media (max-width:991px) {
+    .desktop {
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .nav_logo {
+        width: 80%;
+    }
+    .hero_content p {
+        max-width: 80%;
+    }
+    .hero_content {
+        top: 60%;
+        transform: translate(-50%, -60%);
+    }
+    .a_h h1 {
+        font-size: 45px;
+    }
+    .a_h h1:after {
+        left: -30px;
+    }
+    .a_h h1::before {
+        right: -30px;
+    }
+    .food_list button {
+        margin-top: 0;
+    }
+    .b_bg {
+        min-height: 50vh;
+    }
+    .b_content {
+        text-align: center;
+    }
+    .bf_img img {
+        height: 50vh;
+    }
+    .food_list_wrapper h3 {
+        font-size: 22px;
+    }
+    .food_list_wrapper img {
+        width: 65px;
+    }
+    .food_list_wrapper p {
+        line-height: 28px;
+    }
+    .btn_f_l {
+        padding: 12px 25px;
+    }
+    .subscribe input {
+        width: 70%;
+    }
+    footer p {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    footer ul {
+        justify-content: center;
+        padding: 0;
+    }
+    footer ul li {
+        margin: 0 10px;
+    }
+}
+/* ******************991 e**************** */
+
+
+/* ******************767 s**************** */
+@media (max-width:767px) {
+    .hero_content h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .nav_logo {
+        width: 55%;
+    }
+    .a_h h1 {
+        font-size: 40px;
+    }
+    .a_h h1::before {
+        right: -75px;
+    }
+    .a_h h1:after {
+        left: -75px;
+    }
+    .a_h p {
+        width: 85%;
+    }
+    .row.text-center.food_list_wrapper .col-md-4 {
+        border-bottom: 2px solid #ffffff;
+        padding-bottom: 20px;
+        transition: .3s all ease-in-out;
+    }
+    .row.text-center.food_list_wrapper .col-md-4:hover {
+        border-color: #E59205;
+        padding-bottom: 20px;
+    }
+    .subscribe h1 i {
+        font-size: 42px;
+    }
+}
+/* ******************767 e**************** */
+
+
+@media (max-width:675px) {
+    .a_h h1::before {
+        display: none;
+    }
+    .a_h h1:after {
+        display: none;
+    }
+}
+/* ******************575 s**************** */
+@media (max-width:575px) {
+    a.nav_img_control {
+        width: 70%;
+    }
+    .nav_logo {
+        padding: 0 0;
+    }
+    .nav_logo {
+        width: 45%;
+    } 
+    .hero_content button a {
+        font-size: 14px;
+    }  
+    .a_h h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .food_list button {
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    .margin_top {
+        margin-top: 1rem;
+    }
+    .subscribe input {
+        width: 100%;
+    }
+    .subscribe h1 i {
+        font-size: 32px;
+    }
+    footer ul li {
+        margin: 0 5px;
+    }
+    footer ul li a {
+        font-size: 15px;
+    }
+    .hero_content p {
+        max-width: 100%;
+    }
+    .b_bg {
+        min-height: 40vh;
+    }
+    .bf_img img {
+        height: 40vh;
+    }
+}
+/* ******************575 e**************** */
+
+
+/* ******************450 s**************** */
+@media (max-width:450px) {
+    .f_btn ul li:nth-child(2) button {
+        margin: 0 5px;
+    }
+    .f_btn ul li button {
+        padding: 10px 18px;
+    }
+}
+/* ******************450 e**************** */
